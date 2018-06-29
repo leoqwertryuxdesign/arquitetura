@@ -1,0 +1,331 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+ font-family: 'Poppins';
+}
+
+a {
+  color: #111a24;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #111a24;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Bree Serif', serif;
+}
+
+.bg-primary {
+  background-color: #111a24 !important;
+}
+
+.bg-dark {
+  background-color: #111a24 !important;
+}
+
+.text-faded {
+  color: white;
+    font-weight: 250;
+    line-height: 2em;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+    font-size: 3em;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #111a24;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #111a24;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #111a24;
+ font-family: 'Josefin Sans', sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 400;
+  color: #111a24;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #111a24;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: 1rem;
+  font-weight: 250;
+  color: white;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: #111a24!important;
+    border-color: white;
+        box-shadow: white !important;
+    text-shadow: white !important;
+     outline-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon{
+    color: blue;
+}
+
+.navbar-light .navbar-toggler:focus{
+    border-color: none!important;
+    box-shadow: white !important;
+    text-shadow: white !important;
+     outline-color: transparent;
+}
+
+.navbar-light .navbar-toggler:active{
+    border-color: none!important;
+    box-shadow: white !important;
+    text-shadow: white !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+background-color: #111a24;
+  }
+  #mainNav .navbar-brand {
+    color: white;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 2.5rem 2rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: rgb(61, 142, 140);
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #111a24;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #111a24;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #111a24;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #111a24;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+     font-weight: 100;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+       font-weight: 100;
+  }
+  header.masthead h1 {
+    font-size: 3.5rem;
+      
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+      font-weight: 100;
+  }
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 1em;
+filter: grayscale(0.2);
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(61, 142, 140, 0.7);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+/*  text-transform: uppercase;*/
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 25px;
+  }
+}
+
+.socialmedia{
+    color: white;
+   display: inline-block; 
+    margin: 0 20px;
+}
+
+.socialmedia:hover{
+    color: rgb(61, 142, 140);
+}
+
+.text-primary {
+  color: #111a24;
+}
+
+.btn {
+    font-size: 1.2em;
+  font-weight: 400;
+  border: none;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 3rem;
+}
+
+.btn-primary {
+  background-color: rgb(61, 142, 140);
+    color: white;
+}
+
+.btn-primary:hover{
+  color: black!important;
+  background-color: white!important;
+    box-shadow: none !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    box-shadow: none !important;
+}
+
